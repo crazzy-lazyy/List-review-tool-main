@@ -1,0 +1,32 @@
+# 清单对比与校审工具 - 依赖列表
+# Checklist Comparison & Validation Tool - Dependencies
+
+# GUI 框架
+PyQt6>=6.4.0
+
+# 表格与数据处理
+pandas>=2.0.0
+openpyxl>=3.1.0
+xlrd>=2.0.0
+xlsxwriter>=3.0.0
+
+# Word 文档
+python-docx>=0.8.11
+
+# PDF 导出（带格式）
+reportlab>=4.0.0
+
+# PDF 导入（抽取表格/文本）
+pdfplumber>=0.11.0
+
+# 打包为 Windows 可执行文件
+pyinstaller>=6.0.0
+
+# AI 服务请求（内网 LLM API）
+requests>=2.28.0
+
+# 可选：.et 格式（金山 WPS）需额外调研，此处预留
+# pyet 或 转换器
+
+# 配置与持久化
+# 标准库 json/sqlite3 已满足规则库与配置需求
